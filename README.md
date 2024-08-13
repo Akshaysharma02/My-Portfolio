@@ -8,7 +8,7 @@ This project showcases my journey, skills, and the projects I've worked on using
 # Table-of-Contents:-
 //About
 //Features
-//TechnologiesUsed
+//Technologies Used
 //Installation
 //Usage
 //Project Structure
