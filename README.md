@@ -6,14 +6,14 @@ This project showcases my journey, skills, and the projects I've worked on using
 **Akshay Sharma**
 
 # Table-of-Contents:-
-About
-Features
-TechnologiesUsed
-Installation
-Usage
-Project Structure
-License
-Contact
+//About
+//Features
+//TechnologiesUsed
+//Installation
+//Usage
+//Project Structure
+//License
+//Contact
 
 # About:-
 This portfolio website is designed to highlight my professional background, skills, and project experience. It is built with a responsive design to ensure it looks great on all devices, using Bootstrap for ease of layout management.
