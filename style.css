@@ -1,0 +1,170 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff;
+  color: #000000;
+  line-height: 1.8;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+a {
+  color: #000;
+  transition: .4s;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  color: #ff6584;
+  outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+
+.navbar-brand, .navbar-nav .nav-item .nav-link {
+  color: #000;
+}
+
+.navbar-toggler {
+  border-color: rgba(0,0,0,.1);
+}
+
+.navbar-toggler:hover, .navbar-toggler:focus {
+  background-color: #000;
+}
+
+.hero .slider-item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.1);
+  z-index: 1;
+}
+
+.ftco-navbar-light .navbar-brand {
+  color: #000;
+}
+
+.ftco-navbar-light .navbar-brand:hover {
+  color: #ed7272;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+  color: #000;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: 500;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
+  color: #ff8800;
+  padding: 2px;
+
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #ff7b00;
+  border-color: #ff0000;
+}
+
+.btn-white {
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-outline-white {
+  color: #fff;
+  border-color: #fff;
+}
+
+.img-about {
+  position: relative;
+  width: 75%
+}
+
+.img-about img {
+  border-radius: 20px;
+}
+
+.progress-bar {
+  background-color: #fd0000;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #000;
+  margin-bottom: 1.5rem;
+  font-size: 24px;
+}
+
+.icon:hover {
+  
+  background-color: #ff7300;
+  color: #fff;
+}
+
+#typing-animation {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.error-txt{
+  font-size: 16.5px;
+  color: red;
+  text-align: left;
+  margin: 10px;
+  display: none;
+}
+
+form .textarea-field .error-txt{
+  font-size: 16.5px;
+}
+
+.subscribe-form .form-group {
+  margin-bottom: 0;
+}
+
+.subscribe-form .form-group .form-control {
+  border: none;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 30px;
+}
+
+.subscribe-form .form-group .form-control.submit {
+  background: #30d316;
+  color: #fff;
+  border-radius: 30px;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+      background: #fff;
+      box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+
+  .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
+      color: #ff6584;
+  }
+}
